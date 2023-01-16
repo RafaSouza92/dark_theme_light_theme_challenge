@@ -1,0 +1,27 @@
+@media (max-width: 1084px) {
+  .grid-1 {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+  .grid-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+  }
+  .overview-title {
+    margin: 20px auto;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    display: block;
+    padding: 20px;
+  }
+  .toggle-wrapper {
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  .header-info {
+    border-bottom: 1px solid hsl(228, 34%, 66%);
+  }
+}

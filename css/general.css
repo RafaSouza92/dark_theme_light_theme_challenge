@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to bottom, hsl(232, 19%, 15%) 30%, hsl(230, 17%, 14%) 30% 70%);
+  font-family: "Inter", sans-serif;
+  transition: all 0.3s ease-in-out;
+  height: 100vh;
+}
+
+.attribution {
+  margin: 0 auto;
+  display: block;
+  color: hsl(228, 12%, 44%);
+  text-align: center;
+  padding: 10px;
+}
