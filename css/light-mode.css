@@ -1,4 +1,4 @@
-body.light {
+body.light .main {
   background: linear-gradient(to bottom, hsl(225, 100%, 98%) 30%, hsl(0, 0%, 100%) 30% 70%);
   transition: all 0.3s ease-in-out;
 }

@@ -4,12 +4,13 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(to bottom, hsl(232, 19%, 15%) 30%, hsl(230, 17%, 14%) 30% 70%);
   font-family: "Inter", sans-serif;
   transition: all 0.3s ease-in-out;
   height: 100vh;
 }
-
+.main {
+  background: linear-gradient(to bottom, hsl(232, 19%, 15%) 30%, hsl(230, 17%, 14%) 30% 70%);
+}
 .attribution {
   margin: 0 auto;
   display: block;
